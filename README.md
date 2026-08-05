@@ -8,8 +8,8 @@ A lightweight FastAPI service that scans resume text or candidate bios against c
 - **Swagger Docs:** Built-in interactive documentation available directly at `/docs`.
 
 ## Project Layout
-
-```text
+text
+.
 ├── main.py          # API endpoints and skill matching logic
 ├── schemas.py       # Pydantic request & response models
 ├── requirements.txt # Project dependencies
@@ -34,24 +34,4 @@ Sample Response:JSON{
   "summary": "Found 4 out of 10 target skills for Backend Developer."
 }
 
-4. Scroll to the bottom and click **Commit changes...** > **Commit changes**.
 
----
-
-### 2. Add Topics to Your Repo (Boosts Searchability)
-
-1. Go back to your main repository page (`github.com/dreamyusha/resume-skill-parser`).
-2. Look at the right sidebar under **About** and click the gear icon ⚙️ next to "About".
-3. Under **Topics**, type and add these tags:
-   `fastapi` `python` `pydantic` `rest-api` `backend` `resume-parser`
-4. Click **Save changes**.
-
----
-
-### 3. Pin it to Your Profile
-
-1. Click your profile avatar at the top right -> **Your profile**.
-2. Click **Customize your pins** (or **Pin**).
-3. Check the box for **`resume-skill-parser`** so it shows up at the top of your main GitHub profile page.
-
-Once you deploy this repo on Render and drop your live link in the `About` section, your project link is ready 
